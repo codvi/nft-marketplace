@@ -1,0 +1,45 @@
+/* App container */
+.App {
+  text-align: center;
+}
+
+/* Logo */
+.App-logo {
+  height: 200px; /* Change the height as needed */
+  width: auto; /* Adjust width automatically */
+  pointer-events: none;
+}
+
+/* Header */
+.App-header {
+  background-color: #333; /* Change the background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Adjust font size */
+  color: white;
+}
+
+/* Link */
+.App-link {
+  color: #61dafb;
+}
+
+/* Animation */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear; /* Adjust animation duration */
+  }
+}
+
+/* Keyframes for logo spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
