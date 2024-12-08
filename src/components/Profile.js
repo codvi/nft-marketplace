@@ -87,7 +87,7 @@ export default function Profile () {
                     return <NFTTile data={value} key={index}></NFTTile>;
                     })}
                 </div>
-                <div className="mt-10 text-xl">
+                <div className="mt-10 text-xl bg-white shadow-lg text-red-400 rounded-lg p-6">
                     {data.length == 0 ? "Oops, No NFT data to display (Are you logged in?)":""}
                 </div>
             </div>
